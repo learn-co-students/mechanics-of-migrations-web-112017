@@ -201,7 +201,7 @@ View the columns in its corresponding table in the database:
 
 ```ruby
 Artist.column_names
-# => ["id", "name", "genre", "age", "hometown"] 
+# => ["id", "name", "genre", "age", "hometown"]
 ```
 
 Instantiate a new Artist named Jon, set his age to 30, and save him to the database:
@@ -271,7 +271,7 @@ Awesome! Now go back to the console with the `rake console` command, and check i
 
 ```ruby
 Artist.column_names
-# => ["id", "name", "genre", "age", "hometown", "favorite_food"] 
+# => ["id", "name", "genre", "age", "hometown", "favorite_food"]
 ```
 
 Great!
@@ -295,3 +295,9 @@ Oh good, your job is saved. Thanks Active Record! When the boss says it's actual
 Woohoo!
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/mechanics-of-migrations'>Mechanics of Migrations</a> on Learn.co and start learning to code for free.</p>
+
+
+db/artists-*.sqlite
+db/schema.rb
+db/migrate
+.DS_Store
